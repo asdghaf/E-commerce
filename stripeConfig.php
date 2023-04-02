@@ -1,9 +1,9 @@
 <?php
 require('stripe/init.php');
 
-$publishableKey="pk_test_51MH1kMSHriqitrpZ9wzffFCtudBTZqeAWtNlloNOUSdgGVhYV4HzBVPbmKsX4lOGGt2J2eSfbpP9IZTyoFWfYUxv0056vxnuZt";
+$publishableKey="pk_test_yourKey";
 
-$secretKey="sk_test_51MH1kMSHriqitrpZHbyROzSGPYhFa9ZU0kgjZ7COByMl1YDPrDfcdh7HaXgpetYw2PQOWWcMpTfhKPJr2jlnrbMk00Z6NGsJ30";
+$secretKey="sk_test_yourkey";
 
 \Stripe\Stripe::setApiKey($secretKey);
 ?>
