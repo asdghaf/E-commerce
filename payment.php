@@ -1,5 +1,6 @@
 <?php
    include_once('./includes/headerNav.php');
+   include_once('./stripeConfig.php');
    //this restriction will secure the pages path injection
    if(!(isset($_SESSION['id']))){
       header("location:signup.php?msg=CreateAccountBeforePurchase");
